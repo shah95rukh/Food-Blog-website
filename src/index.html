@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Custom bootstrap</title>
+        <link rel="stylesheet" href="scss/style.scss" class="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="blog-header py-3">
+                <div
+                    class="row flex-nowrap justify-content-between align-items-center"
+                >
+                    <div class="col-4 pt-1">
+                        <a class="text-muted" href="#">Subscribe</a>
+                    </div>
+                    <div class="col-4 text-center font-size-lg">
+                        <h1>Foody</h1>
+                    </div>
+                    <div
+                        class="col-4 d-flex justify-content-end align-items-center"
+                    >
+                        <a class="text-muted" href="#" aria-label="Search">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                class="mx-3"
+                                role="img"
+                                viewBox="0 0 24 24"
+                                focusable="false"
+                            >
+                                <title>Search</title>
+                                <circle cx="10.5" cy="10.5" r="7.5" />
+                                <path d="M21 21l-5.2-5.2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="navbar navbar-expand-md bg-nav navbar-light">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapsibleNavbar"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="collapsibleNavbar"
+                    >
+                        <ul class="navbar-nav ml-auto mr-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Specials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Snacks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Drinks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Breakfast</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Brunch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lunch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Supper</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Dinner</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div
+                id="carouselExampleControls"
+                class="carousel slide mb-3"
+                data-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div
+                            class="row no-gutters border rounded overflow-hidden text-white flex-md-row h-md-250 bg-orangy position-relative"
+                        >
+                            <div
+                                class="col p-4 d-flex flex-column position-static"
+                            >
+                                <h1 class="display-6 font-italic">
+                                    Heavy-cream Banana mix
+                                </h1>
+                                <p class="lead my-3">
+                                    Eat it like a custard or drink it like a
+                                    smoothie. This heavy-cream banana mix will
+                                    leave you wanting for more. Top it up with
+                                    your favourite nuts.
+                                </p>
+                                <p class="lead mb-0 ml-auto">
+                                    <a
+                                        href="#"
+                                        class="text-white font-weight-bold"
+                                        >Continue reading</a
+                                    >
+                                </p>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img
+                                    class="bd-placeholder-img"
+                                    width="500"
+                                    height="auto"
+                                    src="./images/cl-custard.jpg"
+                                    alt="Card image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="row no-gutters border rounded overflow-hidden text-white flex-md-row h-md-250 bg-orangy position-relative"
+                        >
+                            <div
+                                class="col p-4 d-flex flex-column position-static"
+                            >
+                                <h1 class="display-6 font-italic">
+                                    SuperFruit oatmeal
+                                </h1>
+                                <p class="lead my-3">
+                                    They say breakfast is the most important
+                                    meal of the day and this Superfruit Oatmeal
+                                    Bowl recipe is the perfect to kickstart your
+                                    morning.
+                                </p>
+                                <p class="lead mb-0 ml-auto">
+                                    <a
+                                        href="#"
+                                        class="text-white font-weight-bold"
+                                        >Continue reading</a
+                                    >
+                                </p>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img
+                                    class="bd-placeholder-img"
+                                    width="500"
+                                    height="auto"
+                                    src="./images/cl-oatmeal.jpg"
+                                    alt="Card image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="row no-gutters border rounded overflow-hidden text-white flex-md-row h-md-250 bg-orangy position-relative"
+                        >
+                            <div
+                                class="col p-4 d-flex flex-column position-static"
+                            >
+                                <h1 class="display-6 font-italic">
+                                    All-in-one platter
+                                </h1>
+                                <p class="lead my-3">
+                                    When it comes to effortless entertaining,
+                                    nothing is easier than a gorgeous fruit,
+                                    cheese, and cracker platter loaded with all
+                                    sorts of goodies.
+                                </p>
+                                <p class="lead mb-0 ml-auto">
+                                    <a
+                                        href="#"
+                                        class="text-white font-weight-bold"
+                                        >Continue reading</a
+                                    >
+                                </p>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img
+                                    class="bd-placeholder-img"
+                                    width="500"
+                                    height="auto"
+                                    src="./images/cl-cheese.jpg"
+                                    alt="Card image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="row no-gutters border rounded overflow-hidden text-white flex-md-row h-md-250 bg-orangy position-relative"
+                        >
+                            <div
+                                class="col p-4 d-flex flex-column position-static"
+                            >
+                                <h1 class="display-6 font-italic">
+                                    healthy citrus fruits
+                                </h1>
+                                <p class="lead my-3">
+                                    Grapefruit are tropical citrus fruits known
+                                    for their sweet and somewhat sour taste.
+                                    They're the healthiest citrus fruits you can
+                                    eat.
+                                </p>
+                                <p class="lead mb-0 ml-auto">
+                                    <a
+                                        href="#"
+                                        class="text-white font-weight-bold"
+                                        >Continue reading</a
+                                    >
+                                </p>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img
+                                    class="bd-placeholder-img"
+                                    width="500"
+                                    height="auto"
+                                    src="./images/cl-dryfruit.jpg"
+                                    alt="Card image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 shadow" style="width: auto;">
+                        <img
+                            class="card-img-top d-none d-md-block"
+                            width="200"
+                            height="300"
+                            src="./images/matcha.jpg"
+                            alt="Card image"
+                            style="width: 100%;"
+                        />
+                        <div class="card-body bg-card">
+                            <strong class="d-inline-block mb-2 text-danger"
+                                >Drink</strong
+                            >
+                            <h4 class="card-title">Coffee</h4>
+                            <p class="card-text">
+                                <small class="text-muted"
+                                    >Cooking time: 10 min.</small
+                                >
+                            </p>
+                            <p class="card-text">
+                                Wake up in the morning with a rejuvenating and
+                                nutritious matcha latte. With few simple ing..
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 shadow" style="width: auto;">
+                        <img
+                            class="card-img-top d-none d-md-block"
+                            width="200"
+                            height="300"
+                            src="./images/ice_cream.jpg"
+                            alt="Card image"
+                            style="width: 100%;"
+                        />
+                        <div class="card-body bg-card">
+                            <strong class="d-inline-block mb-2 text-danger"
+                                >Snack</strong
+                            >
+                            <h4 class="card-title">Popsicles</h4>
+                            <p class="card-text">
+                                <small class="text-muted"
+                                    >Cooking time: 7 hrs.</small
+                                >
+                            </p>
+                            <p class="card-text">
+                                Healthy homemade raspberry popsicles made with
+                                five ingredients or less! An easy way to get
+                                rid...
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 shadow" style="width: auto;">
+                        <img
+                            class="card-img-top d-none d-md-block"
+                            width="200"
+                            height="300"
+                            src="./images/egg.jpg"
+                            alt="Card image"
+                            style="width: 100%;"
+                        />
+                        <div class="card-body bg-card">
+                            <strong class="d-inline-block mb-2 text-danger"
+                                >Breakfast</strong
+                            >
+                            <h4 class="card-title">Eggs</h4>
+                            <p class="card-text">
+                                <small class="text-muted"
+                                    >Cooking time: 10 min.</small
+                                >
+                            </p>
+                            <p class="card-text">
+                                Avocado Toast with Sunny Side Egg, now this is
+                                the kind of breakfast egg sandwich your
+                                morning...
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 shadow" style="width: auto;">
+                        <img
+                            class="card-img-top d-none d-md-block"
+                            width="200"
+                            height="300"
+                            src="./images/donut.jpg"
+                            alt="Card image"
+                            style="width: 100%;"
+                        />
+                        <div class="card-body bg-card">
+                            <strong class="d-inline-block mb-2 text-danger"
+                                >Snack</strong
+                            >
+                            <h4 class="card-title">Donut</h4>
+                            <p class="card-text">
+                                <small class="text-muted"
+                                    >Cooking time: 2 hrs. 15 min.</small
+                                >
+                            </p>
+                            <p class="card-text">
+                                I have tried so many versions of glazed
+                                doughnuts, and this one finally came out
+                                perfect. Better than...
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 shadow" style="width: auto;">
+                        <img
+                            class="card-img-top d-none d-md-block"
+                            width="200"
+                            height="300"
+                            src="./images/burger.jpg"
+                            alt="Card image"
+                            style="width: 100%;"
+                        />
+                        <div class="card-body bg-card">
+                            <strong class="d-inline-block mb-2 text-danger"
+                                >Lunch</strong
+                            >
+                            <h4 class="card-title">Burger</h4>
+                            <p class="card-text">
+                                <small class="text-muted"
+                                    >Cooking time: 45 min.</small
+                                >
+                            </p>
+                            <p class="card-text">
+                                These are the ultimate steakhouse burgers. They
+                                are packed with flavor and reliably juicy, even
+                                when...
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 shadow" style="width: auto;">
+                        <img
+                            class="card-img-top d-none d-md-block"
+                            width="200"
+                            height="300"
+                            src="./images/pancake.jpg"
+                            alt="Card image"
+                            style="width: 100%;"
+                        />
+                        <div class="card-body bg-card">
+                            <strong class="d-inline-block mb-2 text-danger"
+                                >Brunch</strong
+                            >
+                            <h4 class="card-title">Pancakes</h4>
+                            <p class="card-text">
+                                <small class="text-muted"
+                                    >Cooking time: 25 min.</small
+                                >
+                            </p>
+                            <p class="card-text">
+                                Delicious cinnamon pancakes with caramelized
+                                apples and a maple caramel almond butter
+                                drizzle...
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md-8 blog-main">
+                    <h3 class="pb-4 mb-4 font-italic border-bottom">
+                        From the Firehose
+                    </h3>
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Homemade SpaghettiOs</h2>
+                        <p class="blog-post-meta">
+                            June 29, 2020 by <a href="#">Stephanie</a>
+                        </p>
+
+                        <p>
+                            A slightly grown up, much tastier version of the
+                            extra saucy, little bit sweet SpaghettiOs you grew
+                            up eating out of a can.
+                        </p>
+                        <hr />
+                        <p>
+                            Did you grow up eating pasta out of a can? I sure
+                            did and I LOVED it. Our pantry would always have an
+                            abundance of 2-for-1 on sale cans of the saucy stuff
+                            and I would heat one up whenever I felt like a
+                            snack. I miss my kid metabolism…I can’t believe I
+                            used to eat cans of pasta as a snack! If only my
+                            snacks now were the snacks of my youth…I would be so
+                            happy.
+                        </p>
+                        <p>
+                            Anyway, snacks aside I still love a tiny pasta and
+                            mini meatball because they’re spoonable and who
+                            doesn’t love spoonable food that you eat out of a
+                            bowl? Did you know that SpaghettiOs were apparently
+                            invented because back in the day they thought that
+                            kids didn’t know how to eat long pasta neatly? It
+                            also had something to do with the fact that small
+                            pasta retains it’s texture better in a can. Doesn’t
+                            really matter to me but I do admit there’s something
+                            fun about spooning up pasta. It seems a lot more
+                            efficient somehow.
+                        </p>
+                        <blockquote>
+                            <p>
+                                Prep Time 30 mins <br />
+                                Cook Time 1 hr <br />
+                                Total Time <strong>1 hr 30 mins</strong>.
+                            </p>
+                        </blockquote>
+                        <p>
+                            As fun as spooning is, this recipe almost didn’t
+                            happen even though I’ve been wanting to make
+                            homemade spaghettiOs forever. Like so many other
+                            ideas I just never got around it it. Luckily (or
+                            maybe unluckily) these guys got made because of a
+                            failed experiment. I had a bunch of mini meatballs
+                            in tomato sauce because I wanted to create a bread
+                            cube stuffed with spaghetti and mini meatballs. The
+                            bread cube didn’t quite work out (I didn’t sauce the
+                            spaghetti enough) but the mini meatballs in sauce
+                            turned out to be SO delicious that they had to be
+                            mixed up with mini rings.
+                        </p>
+                        <p>
+                            Sweet and slightly tangy tomato sauce, tender lil
+                            meatballs and spoonable scoopable pasta. This was a
+                            satisfying taste of nostalgia and I would totally do
+                            it again even though shaping those little meatballs
+                            was a
+                            <em>pain in the butt!</em>
+                        </p>
+                    </div>
+                    <!-- /.blog-post -->
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">
+                            Japanese Shokupan Milk Bread
+                        </h2>
+                        <p class="blog-post-meta">
+                            June 21, 2020 by <a href="#">Stephanie</a>
+                        </p>
+                        <p>
+                            A foolproof way to get that fluffy soft Japanese
+                            bread fix at home.
+                        </p>
+                        <hr />
+                        <p>
+                            If you know me, even a little bit, you would know
+                            that I love carbs. I have a sweatshirt that proudly
+                            proclaims me a carb lover because it’s so very, very
+                            true. If I had my way and lived in a world where
+                            calories didn’t count, I would happily live on carbs
+                            only, all day, everyday. Give me ALL the carby
+                            foods: potatoes, noodles, rice, and oh yes,
+                            especially <strong>BREAD</strong>.
+                        </p>
+                        <p>
+                            I love all bread but Japanese shokupan is my
+                            absolute favorite. So much so that back when
+                            traveling was a thing,
+                            <a href=""
+                                >Mike and I regularly went on shokupan hunts
+                                while in Tokyo.</a
+                            >
+                            Bread and toast is on another level over there.
+                            Every time we flew home I would bring a loaf, tucked
+                            into a carry on bag that I would keep in my lap just
+                            so I could have shokupan at home. Those were the
+                            days!
+                        </p>
+                        <blockquote>
+                            <p>
+                                Serves 1 loaf <br />
+                                Prep Time 20 mins <br />
+                                Proofing Time 2 hrs <br />
+                                Total Time <strong>1 hr</strong>.
+                            </p>
+                        </blockquote>
+                        <p>
+                            Of course now travel is out for the foreseeable
+                            future. Which makes me sad on so many levels. Will I
+                            ever eat REAL fluffy, squishy Japanese shokupan
+                            again? I’m hoping with all my heart that the answer
+                            is yes. In the meantime, I’ve been baking this
+                            simple squishable loaf. It doesn’t have a yudane (a
+                            boiling water and flour roux) or a tangzhong (a
+                            cooked water and flour roux) the two most common
+                            additions to shokupan. Even without, it is still a
+                            very soft and fluffy loaf with the added the bonus
+                            of not having to think about making bread the day
+                            before.
+                        </p>
+                    </div>
+                    <!-- /.blog-post -->
+
+                    <!-- /.blog-post -->
+
+                    <nav class="blog-pagination">
+                        <a class="btn btn-outline-primary" href="#">Older</a>
+                        <a
+                            class="btn btn-outline-secondary disabled"
+                            href="#"
+                            tabindex="-1"
+                            aria-disabled="true"
+                            >Newer</a
+                        >
+                    </nav>
+                    <br />
+                </div>
+                <!-- /.blog-main -->
+
+                <aside class="col-md-4 blog-sidebar">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="font-italic">About</h4>
+                        <p class="mb-0">
+                            Fresh, flavorful and (mostly) healthy recipes made
+                            for real, actual, everyday life. Helping you
+                            celebrate the joy of food in a totally
+                            non-intimidating way.
+                        </p>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="font-italic">Follow me on</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </aside>
+                <!-- /.blog-sidebar -->
+                <br />
+            </div>
+            <!-- /.row -->
+        </main>
+        <!-- /.container -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

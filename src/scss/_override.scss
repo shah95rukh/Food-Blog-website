@@ -1,0 +1,41 @@
+$body-bg: #c4f7f7;
+$headings-font-family: "Bungee Shade", cursive;
+$font-family-base: "Maven Pro", sans-serif;
+$primary: #07689f;
+$secondary: #c9d6df;
+$success: #11d3bc;
+$danger: #f14657;
+$info: #a2d5f2;
+$warning: #e7543a;
+$light: #fafafa;
+$dark: #4e4e4e;
+$enable-shadows: true;
+$enable-responsive-font-sizes: true;
+
+$navbar-light-hover-color: #07689f;
+$navbar-nav-link-padding-x: 1rem;
+
+$card-bg: $body-bg;
+$card-border-color: #c9d6df9a;
+
+$carousel-transition-duration: 1.5s;
+$carousel-control-width: 10%;
+
+$spacers: (
+    6: (
+        1rem * 4,
+    ),
+);
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 566px,
+    md: 740px,
+    lg: 1000px,
+    xl: 1200px,
+);
+
+$theme-colors: (
+    "orangy": #ff7e67,
+    "nav": #77ddd1,
+);

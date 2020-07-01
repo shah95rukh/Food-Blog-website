@@ -1,0 +1,19 @@
+{
+    "name": "custombootstrap",
+    "version": "1.0.0",
+    "description": "Practising bootstrap customization",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel ./src/index.html",
+        "build": "parcel build ./src/index.html"
+    },
+    "author": "Syed Shahrukh Ahmed",
+    "license": "ISC",
+    "devDependencies": {
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
+        "parcel-bundler": "^1.12.4",
+        "popper.js": "^1.16.1",
+        "sass": "^1.26.9"
+    }
+}
